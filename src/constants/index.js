@@ -55,19 +55,27 @@ export const navLinks = [
 
 const services = [
   {
-    title: "React Developer",
+    title: "React Js Developer",
+    icon: web,
+  },
+  // {
+  //   title: "React Native Developer",
+  //   icon: mobile,
+  // },
+  // {
+  //   title: "NodeJs Developer",
+  //   icon: backend,
+  // },
+  {
+    title: "Javascript Developer",
+    icon: creator,
+  },
+  {
+    title: "Redux Toolkit",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "NodeJs Developer",
-    icon: backend,
-  },
-  {
-    title: "Javascript Developer",
+    title: "Redux",
     icon: creator,
   },
 ];
@@ -93,10 +101,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Next JS",
-    icon: nextJs,
-  },
+  // {
+  //   name: "Next JS",
+  //   icon: nextJs,
+  // },
   {
     name: "Redux Toolkit",
     icon: redux,
@@ -105,10 +113,10 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Angular",
-    icon: angular,
-  },
+  // {
+  //   name: "Angular",
+  //   icon: angular,
+  // },
   {
     name: "Node JS",
     icon: nodejs,
@@ -117,14 +125,14 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Java",
-    icon: java,
-  },
-  {
-    name: "MySQL",
-    icon: mysql,
-  },
+  // {
+  //   name: "Java",
+  //   icon: java,
+  // },
+  // {
+  //   name: "MySQL",
+  //   icon: mysql,
+  // },
   {
     name: "Git",
     icon: git,
@@ -133,59 +141,41 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Engineer",
-    company_name: "Nickelfox Technologies",
-    company_website: "https://www.nickelfox.com/",
-    icon: nickelfox,
+    title: "Systems Engineer C1",
+    company_name: "Tata Consultancy Services",
+    company_website: "https://www.tcs.com/",
+    icon: null,
     iconBg: "#E6DEDD",
-    date: "Jan 2022 - Present",
+    date: "May 2023 - Nov 2023",
     points: [
-      "Developing and maintaining web and mobile applications using React.js, React-native and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "In the role of a Frontend React JS developer at Government E-marketplace, I tackled intricate challenges, swiftly adapted to modifications, and elevated my project proficiency.",
+"Enhanced project with React, Redux toolkit, Jest, Material UI, showcasing strong problem-solving in ReactJS"
+
     ],
   },
   {
-    title: "Software Developer",
-    company_name: "Newgen Software",
-    company_website: "https://newgensoft.com/home-india/",
-    icon: newgen,
+    title: "Software Engineer L1",
+    company_name: "BidonHomes dot com",
+    company_website: "https://www.bidonhomes.com/",
+    // icon: newgen,
+    icon: null,
     iconBg: "#E6DEDD",
-    date: "Mar 2021 - Dec 2021",
+    date: "Jan 2022 - May 2023",
     points: [
-      "Developed a groundbreaking banking product for a Singapore-based firm, improved transaction management.",
-      "Developed a dynamic dashboard for efficient transaction management, resulting in a 30% increase in productivity.",
-      "Optimized frontend performance by achieving 20% reduction in page loading time and make it responsive.",
-      "Created a transaction report generator, reducing report generation time by 50% and enhancing data analysis.",
+      "Leveraged ReactJS and Redux to maintain and optimize live applications, showcasing adaptability, active learning, and creative troubleshooting skills for peak performance",
+      "Spearheaded the development of a feature-rich CRM in ReactJS, driving a 40-50% productivity boost and optimizing Google Maps API integration by 60-70%",
+      "Collaborated effectively, fostering a culture of problem-solving and creativity while enhancing data visualization for agents and sellers"
     ],
   },
   {
-    title: "Software Engineer Intern",
-    company_name: "Skillrisers",
-    company_website: "https://www.skillrisers.com/",
+    title: "Associate Consultant",
+    company_name: "Bristlecone",
+    company_website: "https://www.bristlecone.com/",
     icon: skillrisers,
     iconBg: "#E6DEDD",
-    date: "Jan 2020 - Jul 2020",
+    date: "Aug 2020 - Sept 2021",
     points: [
-      "Contributed to the development of a Test Engine Application, empowering users to create and conduct tests seamlessly.",
-      "Built three essential modules: Teacher, Student, and Admin, ensuring comprehensive functionality for all user roles.",
-      "Collaborated effectively with the development team, actively participating in code reviews and resolving technical challenges.",
-      "Demonstrated strong problem-solving skills, consistently delivering high-quality code and meeting project deadlines.",
-    ],
-  },
-  {
-    title: "Frontend Developer",
-    company_name: "Self-employed",
-    company_website: "https://proximus.surge.sh/index.html",
-    icon: proximus,
-    iconBg: "#E6DEDD",
-    date: "Jan 2018 - Jan 2021",
-    points: [
-      "Spearheaded the development of a fully responsive website for the college coding society.",
-      "Led coding sessions, actively sharing knowledge and insights to enrich members' programming skills and understanding.",
-      "Organized informative sessions on cutting-edge technologies, including JavaScript and ReactJs.",
-      "Curated and designed challenging coding problems for college competitions.",
+      "Drove Oracle Integration Cloud projects by enhancing PayPal and SugarCRM adapters with Java, SOAP, REST APIs, Docker, and React.js for future endeavors."
     ],
   },
 ];
@@ -322,18 +312,19 @@ const projects = [
 ];
 
 const personalInfo = {
-  name: "Shridhar",
-  fullName: "Shridhar Rai",
-  email: "raishridhar619@gmail.com",
+  name: "Abhishek",
+  fullName: "Abhishek Jaswal",
+  email: "abhishek.jaswal.1999@gmail.com",
   role: "Software Developer",
-  about: `I'm a skilled software developer with experience in TypeScript and
-  JavaScript, and expertise in frameworks like React.Js, React-naitve,
-  Node.js etc. I'm a quick learner and collaborate closely with clients to
+  about: `I'm a skilled software developer with experience in JavaScript and expertise in frameworks like React.Js,
+  Redux etc. I'm a quick learner and collaborate closely with clients to
   create efficient, scalable, and user-friendly solutions that solve
   real-world problems. Let's work together to bring your ideas to life!`,
   projectsIntro: `Following projects showcases my skills and experience through
-  real-world examples of my work. Each project is briefly described with
-  live demos. It reflects my ability to solve complex problems, work
+  real-world examples of my work. 
+  // Each project is briefly described with
+  // live demos.
+   It reflects my ability to solve complex problems, work
   with different technologies, and manage projects effectively.`,
 };
 

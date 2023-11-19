@@ -24,11 +24,11 @@ const ExperienceCard = ({ experience }) => {
           target="_blank"
           className="flex justify-center items-center w-full h-full"
         >
-          <img
+          {/* <img
             src={experience.icon}
             alt={experience.company_name}
             className="w-[60%] h-[60%] object-contain"
-          />
+          /> */}
         </a>
       }
       iconStyle={{ background: experience.iconBg }}
